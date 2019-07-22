@@ -1,0 +1,26 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.bcg {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+}
+.top {
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  text-align: right;
+  padding: 1.5rem; 
+  
+}
+.top .text {
+  color: #FF8D46;
+  border: 1px solid #FF8D46;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.3rem;
+}
