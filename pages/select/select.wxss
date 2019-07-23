@@ -1,0 +1,38 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #FC6E56;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .iconfont {
+  color: #fff;
+  font-size: 10rem;
+  margin-bottom: 2rem;
+  margin-top: -12rem;
+}
+
+.container .selected {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container .selected button {
+  color: #FC6E56;
+  background-color: #fff;
+}
+
+.container .submit {
+  width: 80%;
+  margin-top: 8rem;
+  line-height: 3rem;
+}
+
+.container .submit button {
+  color: #FC6E56;
+  background-color: #fff;
+}

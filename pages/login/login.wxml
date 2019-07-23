@@ -1,0 +1,22 @@
+
+<view class='container'>
+  <!-- <image mode='widthFix' class='bcg' src='/static/imgs/bg1.png'></image> -->
+  <view class='bgc'>
+    <view class='tip'>完善信息</view>
+    <form>
+      <view class='item'>
+        <text class="iconfont icon-yonghu"></text>
+        <input placeholder="请输入姓名"></input>
+      </view>
+      <view class='item'>
+        <text class="iconfont icon-chengshi"></text>
+        <input placeholder="请输入学校"></input>
+      </view>
+      <view class='item'>
+        <text class="iconfont icon-zhanghaoquanxianguanli"></text>
+        <input placeholder="请输入学号"></input>
+      </view>
+    </form>
+    <view class='confirm' bindtap='goForIndex'>确认信息</view>
+  </view>
+</view>

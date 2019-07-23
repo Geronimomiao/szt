@@ -2,9 +2,12 @@ Page({
   data: {
     timer: ''
   },
-  onLoad() {
+  onReady() {
+    this.loading()
+  },
+  loading() {
     this.timer = setTimeout(() => {
-      clearTimeout(timer)
+      clearTimeout(this.timer)
       this.direct()
     }, 2000)
   },
@@ -14,7 +17,7 @@ Page({
     // if (auth) {
     //   url = '/pages/index/index'
     // }
-    let url = '/pages/index/index'
+    let url = '/pages/select/select'
     wx.navigateTo({
       url,
     })
@@ -22,7 +25,7 @@ Page({
   skip() {
     clearTimeout(this.timer);
     wx.navigateTo({
-      url: '/pages/index/index'
+      url: '/pages/select/select'
     })
   },
 })

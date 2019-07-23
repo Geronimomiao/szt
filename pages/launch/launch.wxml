@@ -1,6 +1,10 @@
+<cu-custom bgColor="bg-orange" isBack="{{true}}">
+	<view slot="content">Loading</view>
+</cu-custom>
+
 <view class='container'>
   <view class='top'>
      <text class='text' bindtap="skip">跳过</text>
   </view>
-  <image mode='widthFix' class='bcg' src='/imgs/loading.png'></image>
+  <image mode='widthFix' class='bcg' src='/static/imgs/loading.png'></image>
 </view>

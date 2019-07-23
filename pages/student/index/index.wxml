@@ -1,0 +1,30 @@
+<cu-custom bgColor="bg-red" isBack="{{true}}">
+	<view slot="content">思政棠</view>
+</cu-custom>
+
+
+<content wx:if="{{PageCur=='content'}}"></content>
+<func wx:if="{{PageCur=='func'}}"></func>
+<info wx:if="{{PageCur=='info'}}"></info>
+<view class="cu-bar tabbar bg-white shadow foot">
+  <view class="action" bindtap="NavChange" data-cur="content">
+     <view class="{{PageCur=='content'?'text-red':'text-gray'}} item">
+      <view class="iconfont icon-shouye"></view>
+      <view>首页</view>
+    </view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="func">
+     <view class="{{PageCur=='func'?'text-red':'text-gray'}} item">
+      <view class="iconfont icon-shouye1"></view>
+      <view>功能</view>
+    </view>
+  </view>
+  <view class="action" bindtap="NavChange" data-cur="info">
+    <view class="{{PageCur=='info'?'text-red':'text-gray'}} item">
+      <view class="iconfont icon-zhanghaoquanxianguanli"></view>
+      <view>我的</view>
+    </view>
+  </view>
+</view>
+
+

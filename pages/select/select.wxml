@@ -1,0 +1,14 @@
+<cu-custom bgColor="bg-orange" isBack="{{true}}">
+	<view slot="content">选择身份</view>
+</cu-custom>
+
+<view class='container'>
+  <view class="iconfont icon-bianji"></view>
+  <view class='selected'>
+    <button class="cu-btn lg">教师</button>
+    <button class="cu-btn lg">学生</button>
+  </view>
+  <view class="submit">
+    <button class="cu-btn block lg" bindtap="toLogin">确认身份</button>
+  </view>
+</view>
