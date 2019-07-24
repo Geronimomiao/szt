@@ -1,0 +1,15 @@
+.tabbar .action {
+  min-height: 100rpx;
+}
+
+.tabbar .action .item {
+  margin-top: 10rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tabbar .action .item .iconfont {
+  font-size: 1.4rem;
+}

@@ -1,7 +1,7 @@
 {
   "usingComponents": {
     "content": "/pages/content/content",
-    "func": "/pages/student/func/func",
+    "func": "/pages/teacher/func/func",
     "info": "/pages/info/info"
   }
 }

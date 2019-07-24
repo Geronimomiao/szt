@@ -2,8 +2,7 @@
   "pages": [
     
     
-    "pages/student/index/index",
-    "pages/student/content/content"
+    "pages/student/index/index"
   ],
   "window": {
     "navigationStyle": "custom"

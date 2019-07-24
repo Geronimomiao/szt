@@ -1,0 +1,25 @@
+.container {
+  height: 82vh;
+}
+
+.container .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .userinfo-avatar {
+  width: 230rpx;
+  height: 230rpx;
+  margin: 5vh;
+  border-radius: 50%;
+}
+
+.container .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .content .text-grey {
+  margin-left: 10rpx;
+}

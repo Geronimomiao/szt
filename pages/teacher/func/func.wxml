@@ -6,8 +6,8 @@
   </view>
 
   <view class='func'>
-    <view class='item'>加入课程</view>
+    <view class='item'>发起签到</view>
+    <view class='item'>课程管理</view>
     <view class='item'>查看课件</view>
-    <view class='item'>情景在线</view>
   </view>
 </view>
