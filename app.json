@@ -1,8 +1,8 @@
 {
   "pages": [
     
-    
-    "pages/student/index/index"
+    "pages/teacher/index/index",
+    "pages/choose/choose"
   ],
   "window": {
     "navigationStyle": "custom"

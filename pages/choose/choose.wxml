@@ -1,0 +1,37 @@
+<cu-custom bgColor="bg-red" isBack="{{true}}">
+	<view slot="content">思政棠</view>
+</cu-custom>
+
+<view class='container'>
+  <view class="cu-bar bg-white solid-bottom margin-top">
+    <view class='action'>
+      <text class='cuIcon-titles text-orange '></text> 请选择目标课程
+    </view>
+  </view>
+
+
+  <view class="cu-timeline">
+  <view class="cu-time">我的课程</view>
+  <view class="cu-item cur cuIcon-noticefill">
+    <view class="content bg-grey shadow-blur" bindtap="go" data-cur="马克思主义哲学原理">
+      马克思主义哲学原理
+    </view>
+  </view>
+  <view class="cu-item cuIcon-noticefill">
+    <view class="content bg-grey shadow-blur" bindtap="go" data-cur="中国近现代史纲要">
+      中国近现代史纲要
+    </view>
+  </view>
+  <view class="cu-item  cuIcon-noticefill">
+    <view class="content bg-grey shadow-blur" bindtap="go" data-cur="思想道德与法律基础">
+      思想道德与法律基础
+    </view>
+  </view>
+  <view class="cu-item  cuIcon-noticefill">
+    <view class="bg-grey shadow-blur content" bindtap="go" data-cur="毛泽东思想和中国特色社会主义理论体系概论">
+      毛泽东思想和中国特色社会主义理论体系概论
+    </view>
+  </view>
+</view>
+
+</view>

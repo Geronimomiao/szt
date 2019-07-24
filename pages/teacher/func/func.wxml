@@ -6,8 +6,14 @@
   </view>
 
   <view class='func'>
-    <view class='item'>发起签到</view>
-    <view class='item'>课程管理</view>
-    <view class='item'>查看课件</view>
+    <navigator class="item" url="/pages/choose/choose?dest=createcourse" hover-class="none">
+      <text>创建课程</text>
+    </navigator>
+    <navigator class="item" url="/pages/choose/choose?dest=courseroom" hover-class="none">
+      <text>课程管理</text>
+    </navigator>
+    <navigator class="item" url="/pages/choose/choose?dest=courseware" hover-class="none">
+      <text>查看课件</text>
+    </navigator>
   </view>
 </view>
