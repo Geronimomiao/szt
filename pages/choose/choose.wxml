@@ -26,3 +26,13 @@
     </view>
   </view>
 </view>
+
+
+<view class="cu-timeline">
+  <view class="cu-time">添加课程</view>
+  <view class="cu-item cur cuIcon-noticefill">
+    <view class="content bg-grey shadow-blur" bindtap="goSuccess">
+      Go
+    </view>
+  </view>
+</view>

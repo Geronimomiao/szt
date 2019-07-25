@@ -1,0 +1,7 @@
+.phcolor {
+  color: #fff
+}
+
+.cu-timeline input {
+  color: #fff
+}

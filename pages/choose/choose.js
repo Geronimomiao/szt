@@ -1,4 +1,4 @@
-const { routerMap } = require('../../utils/util.js')
+const { routerMap, toNext } = require('../../utils/util.js')
 
 Page({
   data: {
@@ -23,9 +23,12 @@ Page({
   goForDest() {
     console.log(routerMap[this.data.dest])
     const destUrl = routerMap[this.data.dest]
-    wx.navigateTo({
-      url: destUrl,
-    })
+    toNext(destUrl)
+  },
+
+  goSuccess() {
+    let url = '/pages/addcourse/addcourse'
+    toNext(url)
   }
 
 })

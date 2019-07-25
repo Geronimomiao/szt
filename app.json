@@ -1,7 +1,7 @@
 {
   "pages": [
     
-    
+    "pages/addcourse/addcourse",
     "pages/teacher/index/index",
     
     "pages/launch/launch",
