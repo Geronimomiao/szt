@@ -1,14 +1,18 @@
+const { toNext } = require('../../utils/util.js')
+
 Page({
 
-  /**
-   * 页面的初始数据
-   */
   data: {
-    
+    url: ''
   },
-  goForIndex() {
-    wx.navigateTo({
-      url: '/pages/student/index/index',
+
+  onLoad(options) {
+    this.setData({
+      url: '/pages/' + options.dest + '/index/index'
     })
+  },
+  
+  goForIndex() {
+    toNext(this.data.url)
   }
 })

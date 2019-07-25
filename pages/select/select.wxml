@@ -4,9 +4,12 @@
 
 <view class='container'>
   <view class="iconfont icon-bianji"></view>
-  <view class='selected'>
-    <button class="cu-btn lg">教师</button>
-    <button class="cu-btn lg">学生</button>
+  <view class="selected" wx:if="{{!status}}">
+    <button class="cu-btn lg animated" data-status='教师' data-dest='teacher' bindtap="choose">教师</button>
+    <button class="cu-btn lg animated" data-status='学生' data-dest='student' bindtap="choose">学生</button>
+  </view>
+  <view class='selected' wx:if="{{status}}">
+    <button class="cu-btn lg animated {{status?'fadeInUp':''}}">{{status}}</button>
   </view>
   <view class="submit">
     <button class="cu-btn block lg" bindtap="toLogin">确认身份</button>

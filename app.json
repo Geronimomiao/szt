@@ -1,16 +1,18 @@
 {
   "pages": [
-    
-    "pages/addcourse/addcourse",
-    "pages/teacher/index/index",
-    
     "pages/launch/launch",
     "pages/select/select",
-    "pages/login/login",
     "pages/student/index/index",
+    "pages/teacher/index/index",
+    
+    
+    
+    "pages/login/login",
+    
     "pages/courseware/courseware",
     "pages/createcourse/createcourse",
     "pages/createcoursesuccess/createcoursesuccess",
+    "pages/addcourse/addcourse",
     "pages/record/record",
     "pages/choose/choose"
   ],
