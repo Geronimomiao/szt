@@ -1,0 +1,17 @@
+.test {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.test .userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.test .msg {
+  font-size: 1.6rem;
+  margin-right: 40rpx;
+}

@@ -23,6 +23,9 @@ Page({
   goForDest() {
     console.log(routerMap[this.data.dest])
     const destUrl = routerMap[this.data.dest]
+    wx.navigateTo({
+      url: destUrl,
+    })
   }
 
 })

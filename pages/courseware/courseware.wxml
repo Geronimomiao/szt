@@ -1,1 +1,189 @@
 <!-- 课件 -->
+<cu-custom bgColor="bg-red" isBack="{{true}}">
+	<view slot="content">思政棠</view>
+</cu-custom>
+
+
+
+<view class="cu-timeline">
+  <view class="cu-time">第一章</view>
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第一节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      
+      <view class="margin-top"> 啊 累死了 切个图咋就这么费劲 </view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第二节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      <view class="margin-top"> 冷静 一定要冷静 </view>
+    </view>
+  </view>
+    
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第三节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      <view class="margin-top"> 在坚持一下 </view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-timeline">
+  <view class="cu-time">第二章</view>
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第一节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      
+      <view class="margin-top"> 在坚持一下 </view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第二节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      <view class="margin-top"> 在坚持一下 </view>
+    </view>
+  </view>
+    
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第三节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      <view class="margin-top"> 在坚持一下 </view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第四节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      <view class="margin-top"> 在坚持一下 </view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-timeline">
+  <view class="cu-time">第三章</view>
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第一节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      
+      <view class="margin-top"> 在坚持一下 </view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+    <view class='top'>
+      <view class="cu-capsule radius">
+        <view class="cu-tag line-cyan">第二节</view>
+      </view>
+      <view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+      </view>
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+      </view>
+      </view>
+    </view>
+      <view class="margin-top"> 在坚持一下 </view>
+    </view>
+  </view>
+</view>

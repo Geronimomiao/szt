@@ -1,0 +1,43 @@
+<header>
+  <text>当堂提问记录</text>
+</header>
+
+
+<view class="cu-list menu-avatar comment solids-top margin-top">
+  <view class="cu-item">
+    <view class="cu-avatar round" style="background-image:url(http://wsmpage.cn/yan/zanzibar%20sunset.jpg);"></view>
+    <view class="content">
+      <view class="text-grey">wsm</view>
+      <view class="text-gray text-content text-df">
+        今天能把图切完吗？
+      </view>
+      <view class="bg-grey padding-sm radius margin-top-sm  text-sm">
+        <view class="flex">
+          <view>wsm1:</view>
+          <view class="flex-sub">一定 一定</view>
+        </view>
+      </view>
+      <view class="bg-grey padding-sm radius margin-top-sm  text-sm">
+        <view class="flex">
+          <view>wsm2:</view>
+          <view class="flex-sub">一定 一定</view>
+        </view>
+      </view>
+      <view class="bg-grey padding-sm radius margin-top-sm  text-sm">
+        <view class="flex">
+          <view>wsm3:</view>
+          <view class="flex-sub">一定 一定</view>
+        </view>
+      </view>
+      <view class="bg-grey padding-sm radius margin-top-sm  text-sm">
+        <view class="flex">
+          <view>wsm4:</view>
+          <view class="flex-sub">一定 一定</view>
+        </view>
+      </view>
+      <view class="margin-top-sm flex justify-between">
+        <view class="text-gray text-df">2018年12月4日</view>
+      </view>
+    </view>
+  </view>
+</view>

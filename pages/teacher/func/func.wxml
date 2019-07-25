@@ -6,7 +6,7 @@
   </view>
 
   <view class='func'>
-    <navigator class="item" url="/pages/choose/choose?dest=createcourse" hover-class="none">
+    <navigator class="item" url="/pages/createcourse/createcourse" hover-class="none">
       <text>创建课程</text>
     </navigator>
     <navigator class="item" url="/pages/choose/choose?dest=courseroom" hover-class="none">

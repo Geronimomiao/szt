@@ -1,0 +1,18 @@
+<cu-custom bgColor="bg-orange" isBack="{{true}}">
+	<view slot="content">创建成功</view>
+</cu-custom>
+
+<view class='container'>
+  <view class="iconfont icon-bianji"></view>
+  <view class="submit">
+    <button class="cu-btn block lg" bindtap="toLogin">班级号: 125531</button>
+  </view>
+
+  <view class='code margin-top padding-sm'>
+    <image src='http://wsmpage.cn/szt/1564019485.png' mode='widthFix'></image>
+  </view>
+
+  <view class="submit margin-top">
+    <button class="cu-btn block lg" bindtap="toSuccess">确认</button>
+  </view>
+</view>

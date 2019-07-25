@@ -5,6 +5,13 @@ const routerMap = {
   'video': '/pages/video/video',
 } 
 
+const toNext = (url) => {
+  wx.navigateTo({
+    url,
+  })
+}
+
 module.exports = {
-  routerMap
+  routerMap,
+  toNext
 }

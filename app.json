@@ -1,7 +1,17 @@
 {
   "pages": [
     
+    
     "pages/teacher/index/index",
+    
+    "pages/launch/launch",
+    "pages/select/select",
+    "pages/login/login",
+    "pages/student/index/index",
+    "pages/courseware/courseware",
+    "pages/createcourse/createcourse",
+    "pages/createcoursesuccess/createcoursesuccess",
+    "pages/record/record",
     "pages/choose/choose"
   ],
   "window": {

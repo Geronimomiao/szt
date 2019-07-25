@@ -1,0 +1,4 @@
+.cu-timeline .content .top{
+  display: flex;
+  justify-content: space-between;
+}

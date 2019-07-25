@@ -1,1 +1,39 @@
-<!-- 情景再现 -->
+<cu-custom bgColor="bg-red" isBack="{{true}}">
+	<view slot="content">思政棠</view>
+</cu-custom>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+  <view class='action'>
+    <text class='cuIcon-titles text-orange '></text> 情景再现
+  </view>
+</view>
+
+<view class="cu-card case {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="http://wsmpage.cn/yan/zanzibar%20sunset.jpg" mode="widthFix"></image>
+      <view class="cu-tag bg-blue">暂无</view>
+      <view class="cu-bar bg-shadeBottom">
+        <text class="text-cut">再等一个视频资源</text>
+      </view>
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <view class="cu-avatar round lg" style="background-image:url(http://wsmpage.cn/yan/zanzibar%20sunset.jpg);"></view>
+        <view class="content flex-sub">
+          <view class="text-grey">wsm</view>
+          <view class="text-gray text-sm flex justify-between">
+            十天前
+            <view class="text-gray text-sm">
+              <text class="cuIcon-attentionfill margin-lr-xs"></text> 10
+              <text class="cuIcon-appreciatefill margin-lr-xs"></text> 20
+              <text class="cuIcon-messagefill margin-lr-xs"></text> 30
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>
+      
