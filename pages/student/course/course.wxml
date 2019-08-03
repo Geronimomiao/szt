@@ -1,0 +1,83 @@
+<view class="DrawerPage {{modalName=='vote'?'show':''}}">
+
+  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+    <view slot="content">思政棠</view>
+  </cu-custom>
+  <view class='container'>
+
+    <view class="iconfont icon-bianji"></view>
+    <view class="info margin-sm">
+      <view>课程:</view>
+      <view>毛泽东思想</view>
+    </view>
+
+    <view class="info margin-sm">
+      <view>班级:</view>
+      <view>软件1701</view>
+    </view>
+
+    <view class="info margin-sm">
+      <view>教师:</view>
+      <view>常乐乐</view>
+    </view>
+
+    <!-- <view class="submit">
+    <button class="cu-btn block lg">等待教师端指令</button>
+  </view> -->
+
+    <view class="submit">
+      <button class="cu-btn margin-xs" bindtap="change" data-type="vote">投票</button>
+      <button class="cu-btn margin-xs" bindtap="change" data-type='discuss'>讨论</button>
+      <button class="cu-btn margin-xs" bindtap="change" data-type='checkIn'>签到</button>
+      <button class="cu-btn margin-xs" bindtap="goNext" data-dest="evaluation">评教</button>
+    </view>
+  </view>
+</view>
+
+
+
+
+<view class="cu-modal {{modalName=='checkIn'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">签到提醒</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-top-xl">
+      本堂课老师发起的签到
+    </view>
+    <view class="padding-bottom-xl">
+      请迅速签到
+    </view>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="check">立即签到</view>
+    </view>
+  </view>
+</view>
+
+
+<view class="cu-modal {{modalName=='success'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">提示</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl">
+      恭喜 签到成功
+    </view>
+  </view>
+</view>
+
+
+<view class="DrawerClose {{modalName=='vote'?'show':''}}" bindtap="hideModal">
+  <text class="cuIcon-pullright"></text>
+</view>
+<scroll-view scroll-y class="DrawerWindow {{modalName=='vote'?'show':''}}">
+  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
+    
+  </view>
+</scroll-view>

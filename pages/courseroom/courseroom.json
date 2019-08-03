@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "header": "/component/header/header"
+    "header": "/component/header/header",
+    "student": "/pages/student/course/course",
+    "teacher": "/pages/teacher/course/course"
   }
 }

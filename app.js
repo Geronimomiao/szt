@@ -17,7 +17,7 @@ App({
       id: '',
       schoolName: '',
       userName: '',
-      identity: ''
+      identity: 'student'
     }
   }
 })

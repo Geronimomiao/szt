@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/student/course/course",
+    "pages/student/evaluation/evaluation",
+    "pages/courseroom/courseroom",
+    
     "pages/launch/launch",
     "pages/login/login",
     "pages/select/select",
@@ -10,6 +14,7 @@
     "pages/createcoursesuccess/createcoursesuccess",
     "pages/addcourse/addcourse",
     "pages/record/record",
+    
     "pages/choose/choose"
   ],
   "window": {
