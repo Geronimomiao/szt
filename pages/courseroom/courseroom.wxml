@@ -6,4 +6,6 @@
   <view>教师在该页面 发起提问 发起投票</view>
   <view>学生在该页面 回答问题 做出选择</view>
   <view>(计划用websocket做成实时的 至于为什么没有图 别问我 找UI (甩锅大法好 (逃</view>
+  
+  
 </view>

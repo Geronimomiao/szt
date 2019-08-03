@@ -13,6 +13,7 @@
   height: 230rpx;
   margin: 5vh;
   border-radius: 50%;
+  overflow:hidden; 
 }
 
 .container .content {

@@ -6,8 +6,8 @@
   </view>
 
   <view class='func'>
-    <navigator class="item" url="/pages/choose/choose" hover-class="none">
-      <text>加入课程</text>
+    <navigator class="item" url="/pages/choose/choose?dest=courseroom" hover-class="none">
+      <text>课程管理</text>
     </navigator>
     <navigator class="item" url="/pages/choose/choose?dest=courseware" hover-class="none">
       <text>查看课件</text>

@@ -1,4 +1,5 @@
 const { toNext } = require('../../utils/util.js')
+const app = getApp()
 
 Page({
 
@@ -17,7 +18,12 @@ Page({
   },
 
   choose(e) {
-    console.log(e.target.dataset)
+    // console.log(e.target.dataset)
+    // 获取用户 身份信息
+    app.globalData.userInfo.identity = e.target.dataset.dest
+    console.log(app.globalData.userInfo.identity)
+
+
     this.setData({
       status: e.target.dataset.status,
       dest: e.target.dataset.dest

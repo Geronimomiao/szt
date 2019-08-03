@@ -1,14 +1,10 @@
 {
   "pages": [
     "pages/launch/launch",
+    "pages/login/login",
     "pages/select/select",
     "pages/student/index/index",
     "pages/teacher/index/index",
-    
-    
-    
-    "pages/login/login",
-    
     "pages/courseware/courseware",
     "pages/createcourse/createcourse",
     "pages/createcoursesuccess/createcoursesuccess",

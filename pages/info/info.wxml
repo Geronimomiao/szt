@@ -1,8 +1,7 @@
 <view class="container">
   <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <view wx:else>
-      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <view class="userinfo-avatar">
+      <open-data type="userAvatarUrl"></open-data>
     </view>
   </view>
     <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
@@ -25,7 +24,7 @@
           <text class="text-grey">性别</text>
         </view>
         <view class='item'>
-          <text class="text-grey">男</text>
+          <open-data type="userGender" class="text-grey" lang="zh_CN"></open-data>
         </view>
       </view>
     </view>
@@ -37,7 +36,7 @@
           <text class="text-grey">姓名</text>
         </view>
         <view class='item'>
-          <text class="text-grey">{{userInfo.nickName}}</text>
+          <open-data type="userNickName" class="text-grey" lang="zh_CN"></open-data>
         </view>
       </view>
     </view>
