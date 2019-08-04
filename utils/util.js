@@ -6,9 +6,9 @@ const routerMap = {
 } 
 
 
-const studentCourseMap = {
+const courseMap = {
   'evaluation': '/pages/student/evaluation/evaluation',
-  'discuss': '/pages/student/discuss/discuss',
+  'discuss': '/pages/discuss/discuss',
 }
 
 
@@ -19,7 +19,7 @@ const toNext = (url) => {
 }
 
 module.exports = {
-  studentCourseMap,
+  courseMap,
   routerMap,
   toNext
 }

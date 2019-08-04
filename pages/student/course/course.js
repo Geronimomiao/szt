@@ -1,4 +1,4 @@
-let { studentCourseMap, toNext } = require('../../../utils/util.js')
+let { courseMap, toNext } = require('../../../utils/util.js')
 
 Component({
   options: {
@@ -11,7 +11,7 @@ Component({
   methods: {
     goNext(e) {
       let dest = e.currentTarget.dataset.dest
-      let url = studentCourseMap[dest]
+      let url = courseMap[dest]
       toNext(url)
     },
     hideModal() {

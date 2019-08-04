@@ -27,7 +27,7 @@
     <view class="submit">
       <button class="cu-btn margin-xs" bindtap="change" data-type="vote">投票</button>
       <button class="cu-btn margin-xs" bindtap="goNext" data-dest='discuss'>讨论</button>
-      <button class="cu-btn margin-xs" bindtap="change" data-type='checkIn'>签到</button>
+      <button class="cu-btn margin-xs" bindtap="change" data-type='Image1'>签到</button>
       <button class="cu-btn margin-xs" bindtap="goNext" data-dest="evaluation">评教</button>
     </view>
   </view>
@@ -107,6 +107,37 @@
         确认提交
       </view>
     </radio-group>
+  </view>
+</view>
+
+
+<view class="cu-modal {{modalName=='Image2'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="bg-img" style="background-image: url('http://wsmpage.cn/wsm/13768.jpeg');height:200px;">
+      <view class="cu-bar justify-end text-white">
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close "></text>
+        </view>
+      </view>
+    </view>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="change" data-type='checkIn'>不好意思 又弹错了</view>
+    </view>
+  </view>
+</view>
+
+<view class="cu-modal {{modalName=='Image1'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="bg-img" style="background-image: url('http://wsmpage.cn/wsm/Screenshot_20190804_115823.jpg');height:200px;">
+      <view class="cu-bar justify-end text-white">
+        <view class="action" bindtap="hideModal">
+          <text class="cuIcon-close "></text>
+        </view>
+      </view>
+    </view>
+    <view class="cu-bar bg-white">
+      <view class="action margin-0 flex-sub  solid-left" bindtap="change" data-type='Image2'>不好意思 弹错了</view>
+    </view>
   </view>
 </view>
 

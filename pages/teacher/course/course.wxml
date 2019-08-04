@@ -1,1 +1,66 @@
-<view>teacher</view>
+<header>
+  <text>管理课程</text>
+</header>
+
+
+<view class="container margin">
+  <scroll-view scroll-x class="bg-white nav">
+    <view class="flex text-center">
+      <view class="cu-item flex-sub {{index==TabCur?'text-orange cur':''}}" wx:for="{{func}}" wx:key bindtap="tabSelect" data-id="{{index}}">
+        {{item}}
+      </view>
+    </view>
+  </scroll-view>
+  <view class="msg">
+    <!-- 发起投票 -->
+    <view class="content padding" wx:if="{{current==='投票'&&vote!=='vote'}}">
+      <radio-group class="block">
+        <view class="cu-form-group border-bm">
+          <view class="title">谁是世界上最好的编程语言？</view>
+        </view>
+        <view class="cu-form-group">
+          <view class="title">A.</view>
+          <view class="title">JAVA</view>
+        </view>
+        <view class="cu-form-group">
+          <view class="title">B.</view>
+          <view class="title">Python</view>
+        </view>
+        <view class="cu-form-group">
+          <view class="title">C.</view>
+          <view class="title">php</view>
+        </view>
+        <view class="cu-form-group">
+          <view class="title">D.</view>
+          <view class="title">JavaScript</view>
+        </view>
+      </radio-group>
+
+    </view>
+    <!-- 以图形化形式 显示投票结果 -->
+    <view class="content-back" wx:if="{{current==='投票'&&vote==='vote'}}">
+       <canvas canvas-id="vote" class="canvas" bindtouchstart="touchHandler"></canvas>
+    </view>
+
+    <view class="content padding" wx:if="{{current==='讨论'}}">
+      <radio-group wx:if="{{current==='讨论'}}" class="block">
+        <view class="cu-form-group">
+          <view class="title">论题:</view>
+        </view>
+        <view class="cu-form-group">
+          <view class="title">请谈谈你对Python的看法</view>
+        </view>
+      </radio-group>
+    </view>
+    <view class="content-back" hidden="{{current!=='签到'}}">
+       <canvas canvas-id="checkIn" class="canvas" bindtouchstart="touchHandler"></canvas>
+    </view>
+    <view class="content-back" hidden="{{current!=='评教'}}">
+       <canvas canvas-id="evaluation" class="canvas" bindtouchstart="touchHandler"></canvas>
+    </view>
+    <view class="flex solid-bottom padding justify-end">
+      <button class="cu-btn round line-orange" data-current="{{current}}" bindtap="action">发起{{current}}</button>
+    </view>
+  </view>
+
+</view>

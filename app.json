@@ -1,10 +1,12 @@
 {
   "pages": [
-    "pages/teacher/course/course",
+    
+      
     "pages/student/course/course",
     "pages/student/evaluation/evaluation",
     "pages/courseroom/courseroom",
-    "pages/student/discuss/discuss",
+    "pages/discuss/discuss",
+    "pages/teacher/course/course",
     
     "pages/launch/launch",
     "pages/login/login",
