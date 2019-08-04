@@ -1,4 +1,4 @@
-<cu-custom bgColor="bg-orange" isBack="{{true}}">
+<cu-custom bgColor="bg-transparent" isBack="{{true}}">
 	<view slot="content">选择身份</view>
 </cu-custom>
 

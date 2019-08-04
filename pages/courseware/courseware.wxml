@@ -11,14 +11,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第一节</view>
+        <view class="cu-tag line-orange">第一节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>
@@ -31,14 +31,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第二节</view>
+        <view class="cu-tag line-orange">第二节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>
@@ -50,14 +50,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第三节</view>
+        <view class="cu-tag line-orange">第三节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>
@@ -72,14 +72,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第一节</view>
+        <view class="cu-tag line-orange">第一节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>
@@ -92,14 +92,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第二节</view>
+        <view class="cu-tag line-orange">第二节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>
@@ -111,14 +111,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第三节</view>
+        <view class="cu-tag line-orange">第三节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>
@@ -130,14 +130,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第四节</view>
+        <view class="cu-tag line-orange">第四节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>
@@ -152,14 +152,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第一节</view>
+        <view class="cu-tag line-orange">第一节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>
@@ -172,14 +172,14 @@
     <view class="content">
     <view class='top'>
       <view class="cu-capsule radius">
-        <view class="cu-tag line-cyan">第二节</view>
+        <view class="cu-tag line-orange">第二节</view>
       </view>
       <view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toRecord'>当堂提问</view>
+        <view class="cu-tag bg-orange" bindtap='toRecord'>当堂提问</view>
       </view>
       <view class="cu-capsule radius">
-        <view class="cu-tag bg-cyan" bindtap='toVideo'>情景再现</view>
+        <view class="cu-tag bg-orange" bindtap='toVideo'>情景再现</view>
       </view>
       </view>
     </view>

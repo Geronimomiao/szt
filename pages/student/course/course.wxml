@@ -1,10 +1,9 @@
 <view class="DrawerPage {{modalName=='vote'?'show':''}}">
 
-  <cu-custom bgColor="bg-orange" isBack="{{true}}">
+  <cu-custom bgColor="bg-transparent" isBack="{{true}}">
     <view slot="content">思政棠</view>
   </cu-custom>
   <view class='container'>
-
     <view class="iconfont icon-bianji"></view>
     <view class="info margin-sm">
       <view>课程:</view>
@@ -27,7 +26,7 @@
 
     <view class="submit">
       <button class="cu-btn margin-xs" bindtap="change" data-type="vote">投票</button>
-      <button class="cu-btn margin-xs" bindtap="change" data-type='discuss'>讨论</button>
+      <button class="cu-btn margin-xs" bindtap="goNext" data-dest='discuss'>讨论</button>
       <button class="cu-btn margin-xs" bindtap="change" data-type='checkIn'>签到</button>
       <button class="cu-btn margin-xs" bindtap="goNext" data-dest="evaluation">评教</button>
     </view>
@@ -52,7 +51,7 @@
       请迅速签到
     </view>
     <view class="cu-bar bg-white">
-      <view class="action margin-0 flex-sub  solid-left" bindtap="check">立即签到</view>
+      <view class="action margin-0 flex-sub  solid-left" bindtap="change" data-type='success'>立即签到</view>
     </view>
   </view>
 </view>
@@ -76,8 +75,52 @@
 <view class="DrawerClose {{modalName=='vote'?'show':''}}" bindtap="hideModal">
   <text class="cuIcon-pullright"></text>
 </view>
-<scroll-view scroll-y class="DrawerWindow {{modalName=='vote'?'show':''}}">
-  <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg">
-    
+<view class="DrawerWindow {{modalName=='vote'?'show':''}}">
+  <view class="msg">
+    <radio-group class="block">
+      <view class="cu-form-group border-bm">
+        <view class="title">谁是世界上最好的编程语言？</view>
+      </view>
+      <view class="cu-form-group">
+        <view class="title">A.JAVA</view>
+        <radio checked class="round orange"></radio>
+      </view>
+      <view class="cu-form-group">
+        <view class="title">B.Python</view>
+        <radio checked class="round orange"></radio>
+      </view>
+      <view class="cu-form-group">
+        <view class="title">C.php</view>
+        <radio checked class="round orange"></radio>
+      </view>
+      <view class="cu-form-group">
+        <view class="title">D.JavaScript</view>
+        <radio checked class="round orange"></radio>
+      </view>
+    </radio-group>
+
   </view>
-</scroll-view>
+
+  <view class="msg">
+    <radio-group class="block">
+      <view class="cu-form-group center" bindtap="change" data-type='submit'>
+        确认提交
+      </view>
+    </radio-group>
+  </view>
+</view>
+
+
+<view class="cu-modal {{modalName=='submit'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">提示</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl">
+      恭喜 提交成功
+    </view>
+  </view>
+</view>

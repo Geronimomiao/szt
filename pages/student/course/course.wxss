@@ -1,8 +1,6 @@
-
-
-
 page {
-  background-image: var(--gradualRed);
+  /* background-image: var(--gradualOrange); */
+  background-color: #FC6E56;
   width: 100vw;
   overflow: hidden;
 }
@@ -10,7 +8,7 @@ page {
 .container {
   height: 100vh;
   width: 100%;
-  background-color: #FC6E56;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +30,6 @@ page {
   justify-content: space-around;
 }
 
-
 .container .submit {
   text-align: center;
   width: 80%;
@@ -41,7 +38,7 @@ page {
 }
 
 .container .submit button {
-  color: #FC6E56;
+  color: #fc6e56;
   background-color: #fff;
 }
 
@@ -50,7 +47,6 @@ page {
   width: 100vw;
   height: 100vh;
   left: 0vw;
-  background-color: #f1f1f1;
   transition: all 0.4s;
 }
 
@@ -143,4 +139,34 @@ page {
   flex: initial;
 }
 
+.DrawerWindow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
+.DrawerWindow .msg {
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  width: 80%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.DrawerWindow .msg .cu-form-group {
+  background-color: rgba(0, 0, 0, 0.01);
+  border-top: 0px; 
+  
+}
+
+.DrawerWindow .msg .border-bm {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.DrawerWindow .msg .center {
+  display: block;
+  text-align: center;
+  line-height: 100rpx;
+  padding: 0;
+}

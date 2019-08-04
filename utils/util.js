@@ -8,6 +8,7 @@ const routerMap = {
 
 const studentCourseMap = {
   'evaluation': '/pages/student/evaluation/evaluation',
+  'discuss': '/pages/student/discuss/discuss',
 }
 
 

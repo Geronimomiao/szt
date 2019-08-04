@@ -19,11 +19,6 @@ Component({
         modalName: ''
       })
     },
-    check() {
-      this.setData({
-        modalName: 'success'
-      })
-    },
     change(e) {
       let type = e.currentTarget.dataset.type
       this.setData({

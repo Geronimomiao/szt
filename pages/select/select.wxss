@@ -1,9 +1,15 @@
 @import "/utils/animate.wxss";
 
+page {
+  /* background-image: var(--gradualOrange); */
+  background-color: #FC6E56;
+  width: 100vw;
+  overflow: hidden;
+}
+
 .container {
   height: 100vh;
   width: 100%;
-  background-color: #FC6E56;
   display: flex;
   justify-content: center;
   align-items: center;
